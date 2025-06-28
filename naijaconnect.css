@@ -1,0 +1,162 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Times New Roman', sans-serif;
+  line-height: 1.6;
+  background: #363333;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: #008751;
+  text-align: center;
+  color: white;
+  padding: 1em 0;
+}
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+    color: #f4f0f0;
+}
+
+/* Class Selector */
+.navbar {
+    background-color: #007bff;
+    padding: 2px;
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/* Hero Section */
+.hero {
+  background: url('https://images.unsplash.com/photo-1573164574396-9f9b6c615cc9') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 4em 1em;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 135, 81, 0.7);
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5em;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1em;
+}
+
+.cta-btn {
+  background: #ffd700;
+  color: #000;
+  padding: 0.8em 1.5em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Features */
+.features {
+  background: #7cc1e6;
+  padding: 3em 1em;
+  text-align: center;
+}
+
+.feature-grid {
+  display: grid;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.feature h4 {
+  color: #008751;
+}
+
+@media(min-width: 768px) {
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  nav ul {
+    justify-content: flex-end;
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* How It Works */
+.how-it-works {
+  background: #e7f9f2;
+  padding: 3em 1em;
+  text-align: center;
+}
+
+.how-it-works ol {
+  list-style: none;
+  margin-top: 1.5em;
+}
+
+.how-it-works li {
+  margin: 1em 0;
+  font-size: 1.2rem;
+}
+
+/* Download */
+.download {
+  background: #008751;
+  color: white;
+  text-align: center;
+  padding: 3em 1em;
+}
+
+.download .cta-btn {
+  background: #ffd700;
+  color: #000;
+}
+.connect{
+  border: 1px solid;
+    background: rgb(6, 224, 6);
+    color: white;
+    text-align: unset;
+    padding: 15px;
+  
+}
+
+/* Footer */
+footer {
+  background: #004d2e;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 0.9rem;
+}
